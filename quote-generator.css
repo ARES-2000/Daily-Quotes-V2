@@ -1,0 +1,57 @@
+body{
+   margin: 0%;
+   padding: 0%;
+   height: 45rem;
+
+   background: url(../Assets/pexels-itfeelslikefilm-590493.jpg);
+   background-size: cover;
+   background-position: 100%  0%;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.quote-container{
+   border-radius: 0.5em;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+
+   width: 56%;
+   height: 25rem;
+
+   background-color: rgba(255, 255, 255, 0.971);
+   box-shadow: 0rem 0rem 1rem rgba(0, 0, 0, 0.511);
+}
+.quote{
+   width: 90%;
+   height: 40%;
+   text-align: center;
+   padding-top: 3rem;
+   font-family: 'Times New Roman', Times, serif;
+   font-size:1.1em;
+   text-shadow: 0.05rem 0.05rem 0rem rgba(128, 128, 128, 0.378);
+}
+.author{
+   width: 90%;
+   text-align: center;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: rgb(164, 20, 20);
+   font-size: 1.8em;
+   font-weight: lighter;
+   text-shadow: 0.05rem 0.05rem 0rem rgba(128, 128, 128, 0.378);
+}
+.request-new-quote{
+   width: 6rem;
+   height: 2rem;
+   background-color: rgb(54, 54, 54);
+   border: none;
+   border-radius: 0.2rem;
+   color: white;
+   box-shadow: 0rem 0rem 0.5rem rgba(128, 128, 128, 0.4);
+   transition: all 0.2s;
+}
+.request-new-quote:active{
+   box-shadow: 0rem 0rem 1rem rgba(128, 128, 128, 0.585);
+}
